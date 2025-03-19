@@ -22,7 +22,8 @@ public class AtividadeDeExcecao {
         }catch(ArithmeticException e){
             System.out.println("Não é possivel fazer essa divisão.");
 
-
+        }finally{
+            System.out.println("Sistema finalizado");
         }
 
     }
